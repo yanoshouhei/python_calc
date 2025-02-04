@@ -66,3 +66,30 @@ dir または　ls　などのコマンドを使ってディレクトリー内�
  $ git branch test_branch
 ```
 
+
+切り換え
+```
+ $ git checkout test_branch
+```
+
+
+確認
+```
+ $ git branch t
+```
+
+変更点を登録
+```
+ $ git add .
+```
+
+コミット
+```
+ $ git commit -m "README修正"
+```
+
+プッシュ
+
+```
+ $ git push -u origin test_branch
+```
