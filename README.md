@@ -93,3 +93,9 @@ dir または　ls　などのコマンドを使ってディレクトリー内�
 ```
  $ git push -u origin test_branch
 ```
+
+このとき、ユーザ名とパスワードを聞かれる。
+
+ユーザ名は自分のユーザ名を入れてください。
+パスワードには、GitHubの「Settings」→「Developer settings」→「Personal access tokens」→「Generate new token」から新しいトークンを生成します。
+その後、HTTPS URLの認証でこのトークンを使用します。
