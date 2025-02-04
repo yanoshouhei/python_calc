@@ -66,3 +66,57 @@ dir または　ls　などのコマンドを使ってディレクトリー内�
  $ git branch test_branch
 ```
 
+切り換え
+```
+ $ git checkout test_branch
+```
+
+
+確認
+```
+ $ git branch t
+```
+
+変更点を登録
+```
+ $ git add .
+```
+
+コミット
+```
+ $ git commit -m "README修正"
+```
+
+
+プッシュ
+
+```
+ $ git push -u origin test_branch
+```
+
+このとき、ユーザ名とパスワードを聞かれる。
+
+ユーザ名は自分のユーザ名を入れてください。
+パスワードには、GitHubの「Settings」→「Developer settings」→「Personal access tokens」→「Generate new token」から新しいトークンを生成します。
+その後、HTTPS URLの認証でこのトークンを使用します。
+
+なお、pushするするリモートブランチは
+
+- https://github.com/ee40100x/pyrhon_calc.git
+
+です。ee40100xは自分のユーザ名です。
+
+
+こうすると、自分のgithubに新しくpython_calcというリモートリポジトリが作成されると思います。またそのブランチはbranch_ee4_00のみだと思います。
+
+矢野先生のリポジトリにはそのブランチが接続されています。
+
+- https://github.com/ShouheiYano2020/python_calc.git
+
+
+そうなのです、ブランチは自分のgithubのプロジェクトとして作成され、矢野先生のgithubには接続された形になるのです。
+
+なので、矢野先生のブランチにpushするのではなく、自分のサイトのgithubにpushすることを行っているのです。
+
+
+
