@@ -63,6 +63,11 @@ dir または　ls　などのコマンドを使ってディレクトリー内�
 そのまえにブランチを作成し、ブランチで編集を行いましょう
 
 ```
- $ git branch test_branch
+ $ git branch ee4_00_branch
+```
+
+切り換え
+```
+$ git checkout ee4_00_branch
 ```
 
